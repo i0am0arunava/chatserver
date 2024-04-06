@@ -35,6 +35,7 @@ mongoose
 const io = socket(server, {
   cors: {
     origin: "https://fantastic-tiramisu-b80877.netlify.app",
+    methods: ["GET", "POST"],
     credentials: true,
   },
    
