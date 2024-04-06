@@ -37,7 +37,7 @@ const io = socket(server, {
     origin: "https://fantastic-tiramisu-b80877.netlify.app",
     credentials: true,
   },
-   wsEngine: 'ws' 
+   
 });
 
 global.onlineUsers = new Map();
