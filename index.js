@@ -34,7 +34,7 @@ mongoose
   
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://fantastic-tiramisu-b80877.netlify.app",
     credentials: true,
   },
 });
